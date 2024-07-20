@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Fire Clash Squad Tournament</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Free Fire Clash Squad Tournament</h1>
+        <div class="tournament-details">
+            <p>Entry Fee: <strong>50 INR</strong></p>
+            <p>Winning Amount: <strong>200 INR</strong></p>
+            <p>Date: <strong>July 30, 2024</strong></p>
+            <p>Time: <strong>5:00 PM</strong></p>
+        </div>
+        <a href="{{ url_for('register') }}" class="button">Register Now</a>
+        <a href="{{ url_for('admin_login') }}" class="button">Admin Login</a>
+        <div class="footer">
+            <p>Contact: 123-456-7890 | Email: contact@tournament.com</p>
+        </div>
+    </div>
+</body>
+</html>

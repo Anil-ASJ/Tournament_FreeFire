@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Admin Dashboard</h1>
+        <a href="{{ url_for('registrations') }}" class="button">View Registrations</a>
+        <a href="{{ url_for('index') }}" class="button">Back to Home</a>
+        <div class="footer">
+            <p>Contact: 123-456-7890 | Email: contact@tournament.com</p>
+        </div>
+    </div>
+</body>
+</html>
